@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 w-full flex justify-center py-2 mt-5 transition-all duration-500 ease-in-out z-10 ${
+      className={`sticky top-0 w-full flex justify-center py-2 mt-5 transition-all duration-500 ease-in-out z-10 rounded-b-xl ${
         isScrolled ? "bg-white shadow-lg" : "bg-transparent shadow-none"
       }`}
     >
